@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=63f7b6d1c579018c2a3cbe09"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script><!--스무스 스크롤-->
+</head>
+<body>
+    <button id="topBtn">
+        <div id="topText" class="hidden">Top</div>
+        <svg id="progressSvg" width="50" height="50">
+            <circle id="progressCircle" cx="25" cy="25" r="22" stroke="#fff" stroke-width="3" fill="transparent" transform="rotate(-90, 25, 25)"></circle>
+        </svg>
+        <div id="percentage">0%</div>
+    </button>
+    <div>
+        <div class="navbar_component">
+            <header class="navbar">
+                <div class="padding-global fw nav">
+                    <div class="navbar_wrapper">
+                        <div class="navbar_clickable">
+                            <a href="#" class="navbar_logo">
+                                <img src="img/logo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="navbar_clickable">
+                            <div class="navbar_links">
+                                <a href="index.html" class="menu-item">
+                                    <p class="menu-text">Home</p>
+                                    <div class="underline"></div>
+                                </a>
+                                <a href="about.html" class="menu-item">
+                                    <p class="menu-text">About</p>
+                                    <div class="underline"></div>
+                                </a>
+                                <a href="works.html" class="menu-item">
+                                    <p class="menu-text">Works</p>
+                                    <div class="underline"></div>
+                                </a>
+                                <a href="process.html" class="menu-item">
+                                    <p class="menu-text">Process</p>
+                                    <div class="underline"></div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <footer class="section_footer border-top">
+            <div class="padding-global">
+                <div class="container-large">
+                    <div class="footer_flex">
+                        <div class="footer_top">
+                            <div class="grid-main">
+                                <div id="grid9" class="grid-child">
+                                    <div id="grid10" class="text-style-caps">CONTACT ME</div>
+                                </div>
+                                <div id="grid10" class="grid-child">
+                                    <div class="footer_top-text">항상 다양한 의견을 듣고 배우겠습니다.<br> 어떤 말씀이건 소중히 담겠습니다.</div>
+                                </div>
+                            </div>
+                            <div class="grid-main">
+                                <div id="grid11" class="grid-child">
+                                    <div class="text-style-caps text-align-right">010-3148-9058</div>
+                                </div>
+                            </div>
+                            <div class="grid-main">
+                                <div id="grid12" class="grid-child">
+                                    <div class="padding-top padding-xlarge"></div>
+                                    <a href="#" class="button_component fw">
+                                        <div class="button-block-wrapper">
+                                            <div class="button-block is-primary">
+                                                <div id="grid13" class="button-inner-content">
+                                                    <div class="text-style-button">Contact me</div>
+                                                    <img src="https://uploads-ssl.webflow.com/63f7b6d1c579018c2a3cbe09/63fde6abf9139257c80d68a0_Arrow%20black.svg" id="grid14" alt="" class="invert-on-bg-change button-arrow"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer_bottom">
+                            <div class="grid-main">
+                                <div id="grid15" class="grid-child">
+                                    <div class="footer_bottom-row">
+                                        <div class="footer_menu">
+                                            <a href="index.html" class="menu-item">
+                                                <p class="menu-text">Home</p>
+                                                <div class="underline"></div>
+                                            </a>
+                                            <a href="#" class="menu-item">
+                                                <p class="menu-text">About</p>
+                                                <div class="underline"></div>
+                                            </a>
+                                            <a href="#" class="menu-item">
+                                                <p class="menu-text">Works</p>
+                                                <div class="underline"></div>
+                                            </a>
+                                            <a href="#" class="menu-item">
+                                                <p class="menu-text">Process</p>
+                                                <div class="underline"></div>
+                                            </a>
+                                        </div>
+                                        <div class="social-media-row_component">
+                                            <div class="social-media-row">
+                                                <div class="social-media-image-wrapper">
+                                                    <a href="#" class="social-media-item">
+                                                        <img src="https://uploads-ssl.webflow.com/63f7b6d1c579018c2a3cbe09/63fe066e162371a06782b127_facebook.svg" alt="" class="image"/>
+                                                    </a>
+                                                </div>
+                                                <div class="social-media-image-wrapper">
+                                                    <a href="#" class="social-media-item">
+                                                        <img src="https://uploads-ssl.webflow.com/63f7b6d1c579018c2a3cbe09/63fe074dbb0ba55a382b19cb_instagram.svg" alt="" class="image"/>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid-main">
+                                <div id="grid16" class="grid-child">
+                                    <div class="footer_bottom-row">
+                                        <div class="footer_secondary">
+                                            <a href="#" class="secondary">
+                                                <p class="ts-small">jehun9824@gmail.com</p>
+                                            </a>
+                                            <a href="#" class="secondary">
+                                                <p class="ts-small">Thanks for visiting my Website.</p>
+                                            </a>
+                                        </div>
+                                        <p class="ts tc">© 2023 Shin jae Hoon. All rights reserved.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_image"></div>
+        </footer>
+        <div class="rolling ani">
+            <div class="rolling_box">
+                <div class="aniText">
+                    Thank you for reviewing my portfolio
+                </div>
+                <div class="aniText">
+                    Thank you for reviewing my portfolio
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

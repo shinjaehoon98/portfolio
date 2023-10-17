@@ -1,0 +1,8 @@
+body { background: #080808; } 
+#topBtn { display: flex; position: fixed; bottom: 20px; right: 30px; z-index: 99; cursor: pointer; width: 50px; height: 50px;
+align-items: center; justify-content: center; background-color: transparent; border: none; padding: 0; margin: 0; color: #fff; } 
+#topText { position: absolute; z-index: 5; font-size: 16px; line-height: 50px; width: 100%; text-align: center; color: #fff; opacity: 0; transition: opacity 0.2s ease-in-out; } 
+.hidden { opacity: 0; } 
+.visible { opacity: 1; } 
+#progressSvg { position: absolute; top: 0; left: 0; } 
+#percentage { position: absolute; z-index: 2; font-size: 16px; line-height: 50px; width: 100%; text-align: center; margin: 0; padding: 0; } 
